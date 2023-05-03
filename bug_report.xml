@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <Mobile_bug_13>
+    <Environment>Iphone 12 mini Safari 16.2</Environment>
+    <Title>При смене ориентации экрана с горизогнтальной на вертиальную и обртано едет верстка элемента [onetrust-banner-sdk]</Title>
+    <Steps>1. Перейти на сайт https://capital.com 2. Сменить  положение утсройства с вертикального на гоаризонтальное</Steps>
+    <Expected_result>При смене ориентации экрана с горизогнтальной на вертиальную и обртано  верстка элемента [onetrust-banner-sdk] подстравается под ориентацию экрана</Expected_result>
+    <Actual_result>При смене ориентации экрана верстка элемента onetrust-banner-sdk едет, текст баннера заслоняет конпки</Actual_result>
+  </Mobile_bug_13>
+</root>
